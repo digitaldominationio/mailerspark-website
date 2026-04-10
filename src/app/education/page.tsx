@@ -17,7 +17,7 @@ export default function EducationPage() {
             Email Marketing for Education
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            Keep Students Engaged From <span className="text-highlight">Enrollment to Alumni</span>
+            <span className="text-highlight">Keep Students Engaged From</span>  <span className="text-highlight">Enrollment to Alumni</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Automate every touchpoint of the student lifecycle — welcome emails,
@@ -266,7 +266,7 @@ export default function EducationPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Your Students Deserve Better Communication
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">

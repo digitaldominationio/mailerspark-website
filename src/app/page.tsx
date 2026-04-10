@@ -13,9 +13,9 @@ export default function HomePage() {
               {/* Social proof pill */}
               <div className="inline-flex items-center gap-2.5 bg-white/8 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2 mb-8">
                 <div className="flex -space-x-2 avatar-stack">
-                  {["#FF6B35","#0FA573","#3B82F6","#8B5CF6"].map((c, i) => (
+                  {["#FF6B35", "#0FA573", "#3B82F6", "#8B5CF6"].map((c, i) => (
                     <div key={i} className="w-6 h-6 rounded-full border-2 border-dark flex items-center justify-center text-[8px] text-white font-bold" style={{ background: c, zIndex: 4 - i }}>
-                      {["JK","AL","SM","RD"][i]}
+                      {["JK", "AL", "SM", "RD"][i]}
                     </div>
                   ))}
                 </div>
@@ -24,9 +24,14 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-[56px] font-extrabold text-white leading-[1.08] tracking-tight mb-6 font-[family-name:var(--font-sora)]">
-                Send 10,000 emails.<br/>
-                <span className="text-highlight-on-dark">Pay under $1.</span>
+              <h1 className="text-4xl md:text-5xl lg:text-[56px] font-extrabold leading-[1.08] tracking-tight mb-6 font-[family-name:var(--font-sora)]">
+                <span className="text-highlight-on-dark">
+                  Send 10,000 emails.
+                </span>
+                <br />
+                <span className="text-highlight-on-dark">
+                  Pay under $1.
+                </span>
               </h1>
               <p className="text-white/70 text-lg md:text-xl mb-8 max-w-lg leading-relaxed">
                 Connect your Amazon SES, and get drag-and-drop campaigns, automation workflows, and a built-in CRM — all on a <strong className="text-white">forever-free plan</strong>.
@@ -60,7 +65,7 @@ export default function HomePage() {
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <p className="text-white/40 text-xs font-medium uppercase tracking-wider">Campaign Performance</p>
-                    <h3 className="text-white text-xl font-bold font-[family-name:var(--font-sora)]">Newsletter Growth</h3>
+                    <h3 className="text-white/40 text-xs font-bold text-highlight-on-dark">Newsletter Growth</h3>
                   </div>
                   <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
                     <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
@@ -127,7 +132,7 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">Why MailerSpark</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-heading tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-              Every email you send<br/>should <span className="text-highlight">make you money</span>
+              Every email you send<br />should <span className="text-highlight">make you money</span>
             </h2>
             <p className="text-foreground text-lg">
               Three steps to turn your email list into a revenue engine.
@@ -163,7 +168,7 @@ export default function HomePage() {
             <div>
               <p className="text-accent text-sm font-semibold uppercase tracking-wider mb-3">Save 10x on email costs</p>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-heading tracking-tight mb-6 font-[family-name:var(--font-sora)]">
-                Stop overpaying for<br/>email marketing
+                Stop overpaying for<br />email marketing
               </h2>
               <p className="text-foreground text-lg mb-8 leading-relaxed">
                 Most platforms charge $50–$300/month for 10K contacts. With MailerSpark + Amazon SES, you pay <strong className="text-heading">under $1 for 10,000 emails</strong>. That&apos;s not a typo.
@@ -205,7 +210,7 @@ export default function HomePage() {
                   <p className="text-primary text-sm font-medium mt-1">via Amazon SES</p>
                 </div>
                 <div className="space-y-3">
-                  {["Unlimited contacts on paid plans","Drag & drop email builder","Automation workflows","Built-in CRM & segmentation","Real-time analytics","Multiple SMTP support"].map((f) => (
+                  {["Unlimited contacts on paid plans", "Drag & drop email builder", "Automation workflows", "Built-in CRM & segmentation", "Real-time analytics", "Multiple SMTP support"].map((f) => (
                     <div key={f} className="flex items-center gap-3">
                       <div className="w-5 h-5 rounded-full bg-primary-light flex items-center justify-center flex-shrink-0">
                         <svg className="w-3 h-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
@@ -228,7 +233,7 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">Full Feature Suite</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-heading tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-              Everything you need,<br/><span className="text-highlight">nothing you don&apos;t</span>
+              Everything you need,<br /><span className="text-highlight">nothing you don&apos;t</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -293,7 +298,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <div className="flex justify-center gap-1 text-primary mb-4">
-              {[1,2,3,4,5].map((s) => (
+              {[1, 2, 3, 4, 5].map((s) => (
                 <svg key={s} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
               ))}
             </div>

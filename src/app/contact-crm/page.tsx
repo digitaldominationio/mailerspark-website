@@ -19,7 +19,7 @@ export default function ContactCrmPage() {
                 Contact CRM
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-                Know your audience.{" "}
+               <span className="text-highlight">Know your audience.{" "}</span> 
                 <span className="text-highlight">Sell smarter.</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-lg">
@@ -46,7 +46,7 @@ export default function ContactCrmPage() {
               </div>
             </div>
             <div className="glass-card-dark rounded-2xl p-8">
-              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider">
+              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider text-highlight">
                 <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -355,7 +355,7 @@ export default function ContactCrmPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Stop sending blind. Start selling smart.
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">

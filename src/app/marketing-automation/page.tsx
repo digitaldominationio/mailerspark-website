@@ -19,7 +19,7 @@ export default function MarketingAutomationPage() {
                 Marketing Automation
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-                Set it once.{" "}
+               <span className="text-highlight">Set it once.{" "}</span> 
                 <span className="text-highlight">Let it sell 24/7.</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-lg">
@@ -45,7 +45,7 @@ export default function MarketingAutomationPage() {
               </div>
             </div>
             <div className="glass-card-dark rounded-2xl p-8">
-              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider">
+              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider text-highlight">
                 <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -359,7 +359,7 @@ export default function MarketingAutomationPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Put your marketing on autopilot — starting now
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">

@@ -81,8 +81,8 @@ export default function FeaturesPage() {
             Platform Features
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            Everything you need to turn{" "}
-            <span className="text-highlight">emails into revenue</span>
+           
+            <span className="text-highlight"> Everything you need to turn{" "} emails into revenue</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             One platform. Six powerful tools. Zero excuses. Launch campaigns,
@@ -163,7 +163,7 @@ export default function FeaturesPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Stop paying more for less
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">

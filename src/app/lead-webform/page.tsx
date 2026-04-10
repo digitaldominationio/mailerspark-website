@@ -17,7 +17,7 @@ export default function LeadWebformPage() {
             Lead Web Forms
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            Forms That Fill Your Pipeline <span className="text-highlight">While You Sleep</span>
+            <span className="text-highlight">Forms That Fill Your Pipeline</span> <span className="text-highlight">While You Sleep</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Drag, drop, publish. Capture high-quality leads 24/7 with forms
@@ -219,7 +219,7 @@ export default function LeadWebformPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Your Next Lead Is One Form Away
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">

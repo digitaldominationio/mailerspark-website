@@ -17,7 +17,7 @@ export default function SalesTeamsPage() {
             Built for Sales Teams
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            Close 3x More Deals With <span className="text-highlight">Automated Sequences</span>
+             <span className="text-highlight">Close 3x More Deals With Automated Sequences</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Intelligent lead scoring, multi-step sequences, and deep CRM
@@ -287,7 +287,7 @@ export default function SalesTeamsPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Give Your Sales Team the Unfair Advantage
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">

@@ -17,7 +17,7 @@ export default function MarketingAgenciesPage() {
             Built for Marketing Agencies
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            Scale 50 Clients Without <span className="text-highlight">Scaling Your Team</span>
+           <span className="text-highlight"> Scale 50 Clients Without Scaling Your Team</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             One dashboard for every client. White-label everything, automate
@@ -267,7 +267,7 @@ export default function MarketingAgenciesPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Grow Your Agency, Not Your Headcount
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">

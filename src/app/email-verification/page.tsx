@@ -19,7 +19,7 @@ export default function EmailVerificationPage() {
                 Email Verification
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-                Clean lists = more revenue.{" "}
+                <span className="text-highlight">Clean lists = more revenue.{" "}</span>
                 <span className="text-highlight">Period.</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-lg">
@@ -46,7 +46,7 @@ export default function EmailVerificationPage() {
               </div>
             </div>
             <div className="glass-card-dark rounded-2xl p-8">
-              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider">
+              <h3 className="font-bold text-white mb-4 flex items-center gap-2 text-sm uppercase tracking-wider text-highlight">
                 <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
@@ -382,7 +382,7 @@ export default function EmailVerificationPage() {
       {/* Final CTA */}
       <section className="hero-mesh py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
             Clean your list today. Watch revenue climb tomorrow.
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">

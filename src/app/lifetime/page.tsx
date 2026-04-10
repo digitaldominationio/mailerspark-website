@@ -343,7 +343,7 @@ export default function LifetimePage() {
             </svg>
             Limited spots -- price increases when batch sells out
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-sora)] text-white mb-6">
+          <br/><h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-sora)] text-white mb-6 text-highlight">
             Do not miss this deal
           </h2>
           <p className="text-gray-300 text-lg mb-8">
