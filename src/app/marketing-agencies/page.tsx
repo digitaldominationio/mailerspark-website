@@ -16,8 +16,8 @@ export default function MarketingAgenciesPage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             Built for Marketing Agencies
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-           <span className="text-highlight"> Scale 50 Clients Without Scaling Your Team</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Scale 50 Clients Without <span className="text-highlight">Scaling Your Team</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             One dashboard for every client. White-label everything, automate

@@ -17,7 +17,8 @@ export default function AboutUsPage() {
             About MailerSpark
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-           <span className="text-highlight">The team behind your next{" "}</span> 
+
+            <span className="text-highlight"> The team behind your next</span>{" "}
             <span className="text-highlight">revenue channel</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
@@ -215,31 +216,41 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="hero-mesh py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-           <span className="text-highlight">Ready to turn email into your</span>
-            <br  /><span className="text-highlight"> most profitable channel?</span>
-          </h2>
-          <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-            Join 2,400+ businesses already using MailerSpark to grow audience,
-            automate engagement, and drive revenue on autopilot.
-          </p>
-          <Link
-            href="#"
-            className="cta-glow bg-primary hover:bg-primary-dark text-white px-7 py-3.5 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2"
-          >
-            Start Free — No Card Needed
-            <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
-              <path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </Link>
-          <p className="text-gray-400 text-sm mt-4">
-            Free forever plan &middot; No credit card required &middot; Setup in 2 minutes
-          </p>
-        </div>
-      </section>
+      <section className="hero-mesh py-16 lg:py-24 relative overflow-hidden">
+  
+  {/* Background overlay fix */}
+  <div className="absolute inset-0 bg-black/40 z-0"></div>
+
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
+      <span className="text-highlight">Ready to turn email into your</span>
+      <br  /> 
+      <span className="text-highlight">most profitable channel?</span>
+      
+    </h2>
+
+    <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+      Join 2,400+ businesses already using MailerSpark to grow audience,
+      automate engagement, and drive revenue on autopilot.
+    </p>
+
+    <Link
+      href="#"
+      className="cta-glow bg-primary hover:bg-primary-dark text-white px-7 py-3.5 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2"
+    >
+      Start Free — No Card Needed
+      <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
+        <path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </Link>
+
+    <p className="text-gray-400 text-sm mt-4">
+      Free forever plan · No credit card required · Setup in 2 minutes
+    </p>
+
+  </div>
+</section>
     </>
   );
 }

@@ -19,8 +19,7 @@ export default function EmailMarketingPage() {
                 Email Marketing
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-               <span className="text-highlight">Campaigns that write themselves —{" "}</span> 
-                <span className="text-highlight">and sell for you</span>
+                <span className="text-highlight"> Campaigns that write themselves—{" "} and sell for you</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-lg">
                 Design beautiful emails in minutes, test what converts, and

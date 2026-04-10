@@ -16,8 +16,8 @@ export default function SalesTeamsPage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             Built for Sales Teams
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-             <span className="text-highlight">Close 3x More Deals With Automated Sequences</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Close 3x More Deals With <span className="text-highlight">Automated Sequences</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Intelligent lead scoring, multi-step sequences, and deep CRM

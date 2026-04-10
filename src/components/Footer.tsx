@@ -44,14 +44,10 @@ export default function Footer() {
             </span>
             <span className="text-white/80 text-sm font-medium">2,400+ businesses already growing with MailerSpark</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold font-[family-name:var(--font-sora)] tracking-tight">
-            <span className="text-highlight-on-dark">
-              Your first 1,000 emails
-            </span>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 font-[family-name:var(--font-sora)] tracking-tight">
+            <span className="text-highlight-on-dark"> Your first 1,000 emails</span>
             <br />
-            <span className="text-highlight-on-dark">
-              are on us
-            </span>
+            <span className="text-highlight-on-dark">are on us</span>
           </h2>
           <p className="text-white/75 text-lg mb-8 max-w-xl mx-auto">
             No credit card. No time limit. No hidden fees. Just connect your SMTP and start sending in under 3 minutes.
@@ -98,8 +94,8 @@ export default function Footer() {
               <div className="flex items-center gap-2.5 mb-4">
                 <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                    <path d="M3 8L12 14L21 8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M3 8V18H21V8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M3 8L12 14L21 8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M3 8V18H21V8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
                 <span className="text-lg font-bold tracking-tight font-[family-name:var(--font-sora)]">MailerSpark</span>
@@ -124,7 +120,7 @@ export default function Footer() {
             {/* Link Columns */}
             {Object.entries(footerLinks).map(([title, links]) => (
               <div key={title}>
-                <h4 className="text-xs font-semibold text-white/30 uppercase tracking-wider mb-4 text-highlight-on-dark">{title}</h4>
+                <h4 className="text-xs font-semibold text-white/30 uppercase tracking-wider mb-4 text-highlight">{title}</h4>
                 <ul className="space-y-2.5">
                   {links.map((link) => (
                     <li key={link.label}>

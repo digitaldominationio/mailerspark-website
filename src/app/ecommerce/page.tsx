@@ -16,8 +16,8 @@ export default function EcommercePage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             E-commerce Email Marketing
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-           <span className="text-highlight"> Recover 15% of Abandoned Carts — </span><span className="text-highlight">Automatically</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Recover 15% of Abandoned Carts — <span className="text-highlight">Automatically</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Turn window shoppers into repeat buyers with cart recovery sequences,

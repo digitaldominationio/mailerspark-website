@@ -16,8 +16,8 @@ export default function PopupBuilderPage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             Popup Builder
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-           <span className="text-highlight">Turn Every Visitor into a </span><span className="text-highlight">Subscriber</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Turn Every Visitor into a <span className="text-highlight">Subscriber</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Build popups that feel native to your brand, trigger at the perfect moment,

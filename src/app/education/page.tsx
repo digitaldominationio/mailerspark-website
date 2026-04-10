@@ -16,8 +16,8 @@ export default function EducationPage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             Email Marketing for Education
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            <span className="text-highlight">Keep Students Engaged From</span>  <span className="text-highlight">Enrollment to Alumni</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Keep Students Engaged From <span className="text-highlight">Enrollment to Alumni</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Automate every touchpoint of the student lifecycle — welcome emails,

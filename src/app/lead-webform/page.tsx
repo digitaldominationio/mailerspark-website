@@ -16,8 +16,8 @@ export default function LeadWebformPage() {
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
             Lead Web Forms
           </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-            <span className="text-highlight">Forms That Fill Your Pipeline</span> <span className="text-highlight">While You Sleep</span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+            Forms That Fill Your Pipeline <span className="text-highlight">While You Sleep</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
             Drag, drop, publish. Capture high-quality leads 24/7 with forms

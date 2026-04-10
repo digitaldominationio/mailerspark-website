@@ -18,8 +18,8 @@ export default function EmailVerificationPage() {
               <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-3">
                 Email Verification
               </p>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)]">
-                <span className="text-highlight">Clean lists = more revenue.{" "}</span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-4 font-[family-name:var(--font-sora)] text-highlight">
+                Clean lists = more revenue.{" "}
                 <span className="text-highlight">Period.</span>
               </h1>
               <p className="text-gray-300 text-lg mb-8 max-w-lg">
